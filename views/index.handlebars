@@ -1,0 +1,47 @@
+<h1>Eat Da Fudz!</h1>
+
+<h2>Current Menu</h2>
+
+
+
+<h2>Add Something Tasty</h2>
+<form class="create-form">
+
+    <div class="form-group">
+        <label for="fudz">What Are you Craving?</label>
+        <input type="text" id="fudz" name="name">
+    </div>
+    <button id="sub" type="submit">Add Fudz</button>
+    
+</form>
+<div class="container">
+
+<div class="row">
+    <div id="fudzItem" class="col-lg-6">
+        <h2>Not Eaten</h2>
+        <div>
+
+            {{#each burgers}}
+            {{#unless devoured}}
+            {{> burgers/burger-block devour=false}}
+            {{/unless}}
+            {{/each}}
+
+        </div>
+    </div>
+
+    <div id="done" class="col-lg-6">
+        <h2>Eaten</h2>
+        <div>
+
+            {{#each burgers}}
+            {{#if devoured}}
+            {{> burgers/burger-block devour=true}}
+            {{/if}}
+            {{/each}}
+
+        </div>
+    </div>
+</div>
+</div>
+
