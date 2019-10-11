@@ -5,7 +5,7 @@ An all you can eat burger app.
 
 ## Getting Started
 
-Go to 'https://infinite-gorge-42845.herokuapp.com/'  
+Go to 'https://git.heroku.com/infinite-gorge-42845.git'  
 
 OR
 
