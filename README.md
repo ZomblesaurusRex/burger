@@ -5,7 +5,7 @@ An all you can eat burger app.
 
 ## Getting Started
 
-Go to''  
+Go to 'https://infinite-gorge-42845.herokuapp.com/'  
 
 OR
 
@@ -16,17 +16,17 @@ OR
 5. Open `http://localhost:3000/` in your browser to open the site.
 
 
-## Technologies Used
-*Javascript
-*MySQL
-*ORM data management
-*nodeJS
-*NPM Packages
- **body-parser
- **express
- **express-handlebars
- **method-override
- **mysql
- **path
-*Handlebars
-*HTML
+
+## TECHNOLOGIES USED
+* Javascript
+* Nodejs
+* New Learning:
+    * ORM data management
+    * Handlebars
+* NPM Packages:
+    * body-parser
+    * express
+    * express-handlebars
+    * method-override
+    * mysql
+    * path
